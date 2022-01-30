@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #ccdcf5;
+    background-color: hsl(212, 45%, 89%);
 }
 
 .card{
@@ -16,7 +16,7 @@ body{
     margin-right: auto;
     margin-bottom: 20px;
     border-radius: 20px;
-    background-color: white;
+    background-color: hsl(0, 0%, 100%);
     padding-top: 14px;
     padding-bottom: 22px;
 }
