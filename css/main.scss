@@ -1,11 +1,47 @@
 @import "./partials/reset";
 @import "./partials/vars";
 
+body {
+    background-color: $lightGray;
+}
+
 .contenedor {
     display: flex;
     justify-content: center;
+    height: 100vh;
 }
 
 .card {
-    
+    background-color: $white;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    gap: 16px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 13px 0px #00000054;
+
+    &__img {
+        width: 90%;
+        border-radius: 10px;
+    }
+
+    &__title {
+        font-family: 'Outfit', sans-serif;
+        text-align: center;
+        color: $darkBlue;
+        font-weight: 700;
+        font-size: 1.8rem;
+    }
+
+    &__subtitle {
+        text-align: center;
+        color: $grayishBlue;
+        font-weight: 300;
+        font-size: 1.2rem;
+        font-family: 'Outfit', sans-serif;
+    }
 }
